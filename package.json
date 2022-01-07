@@ -1,0 +1,25 @@
+{
+  "name": "express-cheerio-scraping",
+  "version": "1.0.0",
+  "description": "web scraping with express js and cheerio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startDev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "express",
+    "cheerio",
+    "web",
+    "scraping"
+  ],
+  "author": "kidus",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
